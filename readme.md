@@ -27,9 +27,11 @@ These devices were confirmed via various images, found on Internet and validated
 | Globe_LTE MIFI_XXXX | YOUWIN M022T | 86066701 | 8 | |
 | My Broadband-xxxx | Huawei E589 | 86303001 <br/> 86723101 | 8 | |
 | Connect4G | Huawei B593 | 86316801 | 11 | |
+| inwi Home 4G XXXXXX | ZTE MF253V | 86658004 | 8 | Note the space after 4G |
 | 501HWa-XXXXXX | Huawei HWABJ1 | 86738102 | 7 | Add 'a' to every candidate, eg. `sed 's/$/a/'` |
 | Orange Airbox-XXXX | Huawei E5573 | 86742202 | 8 | |
 | 4G-Gateway-XXXX | Huawei B593 | 86803100 | 8 | |
+| inwi Home 4GXXXXXX | Huawei B310s | 86846503 | 8 | No space between 4G and hex digits |
 
 ## Usage
 ```
