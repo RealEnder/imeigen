@@ -21,6 +21,7 @@ These devices were confirmed via various images, found on Internet and validated
 | --------- | ----- | --- | :----: | ----- |
 | VINNWiFi_XXXX[_5G] | TCL/Alcatel MW40V1 | 35178309 | 8 | |
 | BeelineS23_XXXX | Beeline S23 | 35232010 | 8 | |
+| pocketwifi-xxxx | Huawei E585 | 35239804 <br/> 35730904 | 8 | |
 | VIVACOM 4G WiFi_XXXX[_5G] | TCL/Alcatel MW40V1 | 35240810 | 8 | |
 | BeelineSM25_XXXX | Beeline SM25 | 35595810 | 8 | |
 | OptusWiFi E5331 xxxx | Huawei E5531 | 86066701 | 8 | |

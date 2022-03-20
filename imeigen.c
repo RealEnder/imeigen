@@ -51,6 +51,7 @@ int main(int argc, char **argv)
     {
         {"VINNWiFi",         "8", "35178309", NULL},
         {"BeelineS23",       "8", "35232010", NULL},
+        {"pocketwifi-",      "8", "35239804", "35730904", NULL},
         {"VIVACOM 4G WiFi",  "8", "35240810", NULL},
         {"BeelineSM25",      "8", "35595810", NULL},
         {"OptusWiFi E5331",  "8", "86066701", NULL},
