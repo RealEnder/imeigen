@@ -23,6 +23,7 @@ These devices were confirmed via various images, found on Internet and validated
 | BeelineS23_XXXX | Beeline S23 | 35232010 | 8 | |
 | pocketwifi-xxxx | Huawei E585 | 35239804 <br/> 35730904 | 8 | |
 | VIVACOM 4G WiFi_XXXX[_5G] | TCL/Alcatel MW40V1 | 35240810 | 8 | |
+| MTN MiFi E5830S | Huawei E5830S | 35410303 | 8 | |
 | BeelineSM25_XXXX | Beeline SM25 | 35595810 | 8 | |
 | OptusWiFi E5331 xxxx | Huawei E5531 | 86066701 | 8 | |
 | Globe_LTE MIFI_XXXX | YOUWIN M022T | 86066701 | 8 | |
