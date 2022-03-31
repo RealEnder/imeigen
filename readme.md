@@ -33,6 +33,7 @@ These devices were confirmed via various images, found on Internet and validated
 | My Broadband-xxxx | Huawei E589 | 86303001 <br/> 86723101 | 8 | |
 | Connect4G | Huawei B593 | 86316801 | 11 | |
 | VIVACOM 4G WI-FI | Huawei E5573 | 86398103 | 8 | |
+| Domino-XXXX | ZTE MF63 CU | 86637701 | 8 | |
 | 501HWa-XXXXXX | Huawei HWABJ1 | 86738102 | 7 | Add 'a' to every candidate, eg. `sed 's/$/a/'` |
 | 4G-Gateway-XXXX | Huawei B593 | 86803100 | 8 | |
 | inwi Home 4GXXXXXX | Huawei B310s | 86846503 | 8 | No space between 4G and hex digits |
