@@ -27,6 +27,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | MTN MiFi E5830S | Huawei E5830S | 35410303 | 8 | |
 | BeelineSM25_XXXX | Beeline SM25 | 35595810 | 8 | |
 | MobileWiFi-xxxx | Huawei E560 | 35750304 | 8 | Used by Beeline |
+| Beeline_XXXX | Beeline L02H | 35978707 | 8 | |
 | OptusWiFi E5331 xxxx | Huawei E5531 | 86066701 | 8 | |
 | Globe_LTE MIFI_XXXX | YOUWIN M022T | 86066701 | 8 | |
 | inwi Home 4G XXXXXX | ZTE MF253V | 86074303 <br/> 86658004 | 8 | Note the space after 4G |

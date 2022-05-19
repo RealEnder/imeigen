@@ -57,6 +57,7 @@ int main(int argc, char **argv)
         {"MTN MiFi E5830S",  "8", "35410303", NULL},
         {"BeelineSM25",      "8", "35595810", NULL},
         {"MobileWiFi-",      "8", "35750304", NULL},
+        {"Beeline_",         "8", "35978707", NULL},
         {"OptusWiFi E5331",  "8", "86066701", NULL},
         {"Globe_LTE MIFI",   "8", "86066701", NULL},
         {"inwi Home 4G ",    "8", "86074303", "86658004", NULL},
