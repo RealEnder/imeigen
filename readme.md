@@ -23,6 +23,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | BeelineS23_XXXX | Beeline S23 | 35232010 | 8 | |
 | pocketwifi-xxxx | Huawei E585 | 35239804 <br/> 35730904 | 8 | |
 | VIVACOM 4G WiFi_XXXX[_5G] | TCL/Alcatel MW40V1 | 35240810 | 8 | |
+| MegaFonMR150-6_XXXX | WeWins MR150-6 | 35274110 <br/> 35742110 | 8 | |
 | MTN MiFi E5830S | Huawei E5830S | 35410303 | 8 | |
 | BeelineSM25_XXXX | Beeline SM25 | 35595810 | 8 | |
 | MobileWiFi-xxxx | Huawei E560 | 35750304 | 8 | Used by Beeline |
