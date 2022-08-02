@@ -66,6 +66,7 @@ int main(int argc, char **argv)
         {"Connect4G",       "11", "86316801", NULL},
         {"VIVACOM 4G WI-FI", "8", "86398103", NULL},
         {"Domino-",          "8", "86434052", "86637701", NULL},
+        {"VIVACOM 3G WI-FI", "8", "86570602", NULL},
         {"501HWa",           "7", "86738102", NULL},
         {"4G-Gateway",       "8", "86803100", NULL},
         {"inwi Home 4G",     "8", "86846503", NULL},
