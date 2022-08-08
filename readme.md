@@ -39,6 +39,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | VIVACOM 4G WI-FI | Huawei E5573s-320 | 86398103 | 8 | |
 | Domino-XXXX | Huawei E5327 / ZTE MF63 CU | 86434052 </br> 86637701 | 8 | Huawei model uncertain |
 | VIVACOM 3G WI-FI | Huawei E5330Bs-2 | 86570602 | 8 | |
+| HUAWEI-E5577-XXXX | Huawei E5577s-932 | 86685202 | 8 | |
 | VIVA-4G-LTE-XXXX | Huawei E5577Cs-321 | 86726202 | 6 | Prepend 'VIVA' to every candidate, eg. `sed 's/^/VIVA/'`. Practically doesn't reduce the keyspace |
 | 501HWa-XXXXXX | Huawei HWABJ1 | 86738102 | 7 | Append 'a' to every candidate, eg. `sed 's/$/a/'` |
 | 4G-Gateway-XXXX | Huawei B593 | 86803100 | 8 | |
