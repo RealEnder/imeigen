@@ -35,7 +35,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | Orange Airbox-XXXX | Huawei E5573 | 86259802 <br/> 86742202 | 8 | |
 | My Broadband-xxxx | Huawei E589 | 86303001 <br/> 86723101 | 8 | |
 | Connect4G | Huawei B593 | 86316801 | 11 | |
-| VIVACOM 4G WI-FI | Huawei E5573 | 86398103 | 8 | |
+| VIVACOM 4G WI-FI | Huawei E5573s-320 | 86398103 | 8 | |
 | Domino-XXXX | Huawei E5327 / ZTE MF63 CU | 86434052 </br> 86637701 | 8 | Huawei model uncertain |
 | VIVACOM 3G WI-FI | Huawei E5330Bs-2 | 86570602 | 8 | |
 | VIVA-4G-LTE-XXXX | Huawei E5577C | 86726202 | 6 | Prepend 'VIVA' to every candidate, eg. `sed 's/^/VIVA/'`. Practically doesn't reduce the keyspace |
