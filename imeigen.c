@@ -47,7 +47,7 @@ int main(int argc, char **argv)
     int len = 8;
     char number[16] = {0};
 
-    static const char *routers[][5] =
+    static const char *routers[][6] =
     {
         {"MW45AN_",          "8", "35042693", NULL},
         {"MW45V_",           "8", "35143020", NULL},
@@ -55,6 +55,7 @@ int main(int argc, char **argv)
         {"BeelineS23",       "8", "35232010", NULL},
         {"pocketwifi-",      "8", "35239804", "35730904", NULL},
         {"VIVACOM 4G WiFi",  "8", "35240810", NULL},
+        {"MW40V_",           "8", "35249110", "35647811", "35724307", NULL},
         {"MegaFonMR150-6_",  "8", "35274110", "35742110", NULL},
         {"MTN MiFi E5830S",  "8", "35410303", NULL},
         {"E5830-",           "8", "35410303", NULL},
