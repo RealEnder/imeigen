@@ -49,6 +49,7 @@ int main(int argc, char **argv)
 
     static const char *routers[][5] =
     {
+        {"MW45AN_",          "8", "35042693", NULL},
         {"MW45V_",           "8", "35143020", NULL},
         {"VINNWiFi",         "8", "35178309", NULL},
         {"BeelineS23",       "8", "35232010", NULL},
