@@ -79,7 +79,7 @@ int main(int argc, char **argv)
         {"Orange-",          "8", "86726202", NULL},
         {"501HWa",           "7", "86738102", NULL},
         {"4G-Gateway",       "8", "86803100", NULL},
-        {"inwi Home 4G",     "8", "86846503", NULL},
+        {"inwi Home 4G",     "8", "86846503", "86918004", NULL},
         {NULL}
     };
 
