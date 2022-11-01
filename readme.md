@@ -44,6 +44,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | VIVACOM 4G WI-FI | Huawei E5573s-320 | 86398103 | 8 | |
 | Domino-XXXX | Huawei E5327 / ZTE MF63 CU | 86434052 </br> 86637701 | 8 | Huawei model uncertain |
 | VIVACOM 3G WI-FI | Huawei E5330Bs-2 | 86570602 | 8 | |
+| imotowifiXXXXXX | Shanghai Notion Information Technology | 86616703 | 8 | |
 | HUAWEI-E5577-XXXX | Huawei E5577s-932 | 86685202 | 8 | The SSID matches with other Huawei router sub-model, which use different default key generation algorithm |
 | VIVA-4G-LTE-XXXX | Huawei E5577Cs-321 | 86726202 | 6 | Prepend 'VIVA' to every candidate, eg. `sed 's/^/VIVA/'`. Practically doesn't reduce the keyspace |
 | Orange-XXXX | Huawei E5577Cs-321 | 86726202 | 8 | The SSID matches with other Orange routers, which use different default key generation algorithms |

@@ -74,6 +74,7 @@ int main(int argc, char **argv)
         {"VIVACOM 4G WI-FI", "8", "86398103", NULL},
         {"Domino-",          "8", "86434052", "86637701", NULL},
         {"VIVACOM 3G WI-FI", "8", "86570602", NULL},
+        {"imotowifi",        "8", "86616703", NULL},
         {"HUAWEI-E5577-",    "8", "86685202", NULL},
         {"VIVA-4G-LTE-",     "6", "86726202", NULL},
         {"Orange-",          "8", "86726202", NULL},
