@@ -25,7 +25,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | BeelineS23_XXXX | Beeline S23 | 35232010 | 8 | |
 | pocketwifi-xxxx | Huawei E585 | 35239804 <br/> 35730904 | 8 | |
 | VIVACOM 4G WiFi_XXXX[_5G] | TCL/Alcatel MW40V1 | 35240810 | 8 | |
-| MW40V_XXXX | TCL/Alcatel MW40V1 | 35249110 <br/> 35647811 <br/> 35724307 | 8 | |
+| MW40V_XXXX | TCL/Alcatel MW40V1 | 35249110 <br/> 35342609 <br/> 35647811 <br/> 35724307 | 8 | |
 | MegaFonMR150-6_XXXX | WeWins MR150-6 | 35274110 <br/> 35742110 | 8 | |
 | SVITIN-XXXX | WeWins M09 | 35343011 | 8 | |
 | MTN MiFi E5830S | Huawei E5830S | 35410303 | 8 | |
