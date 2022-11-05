@@ -72,8 +72,16 @@ int main(int argc, char **argv)
 
     if (argc <= 1) {
         printf("IMEIgen v0.1 (c) Alex Stanev <alex@stanev.org>\n");
-        printf("Usage: %s [8-digit TAC|SSID] [right digits count, default 8]\n", *argv);
+        printf("Usage: %s [[8-digit TAC|SSID] [right digits count, default 8] | list]\n", *argv);
         exit(1);
+    }
+
+    if (argc == 2 && strcmp(argv[1], "list") == 0) {
+        for (router=0; router<sizeof(routers)/sizeof(routers[0])-1; router++) {
+            printf("%s\n",routers[router][0]);
+        }
+
+        exit(0);
     }
 
     if (argc == 3) {
