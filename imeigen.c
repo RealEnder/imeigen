@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <ctype.h>
 
 int calc_digit(char *number)
 {
@@ -26,19 +25,6 @@ int calc_digit(char *number)
     sum = 10 - (sum % 10);
     if (sum == 10) sum = 0;
     return sum;
-}
-
-int isdigit_str(char *str)
-{
-    int i;
-
-    for (i=0; i<strlen(str); i++) {
-        if (!isdigit(str[i])) {
-            return 0;
-        }
-    }
-
-    return 1;
 }
 
 int main(int argc, char **argv)
@@ -98,7 +84,7 @@ int main(int argc, char **argv)
         } 
     }
 
-    if (isdigit_str(argv[1])) {
+    if (strspn(argv[1], "0123456789") == strlen(argv[1])) {
         if (strlen(argv[1]) != 8) {
             printf("TAC must be with length 8!\n");
             exit(1);
