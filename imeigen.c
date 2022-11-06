@@ -78,7 +78,7 @@ int main(int argc, char **argv)
 
     if (argc == 2 && strcmp(argv[1], "list") == 0) {
         for (router=0; router<sizeof(routers)/sizeof(routers[0])-1; router++) {
-            printf("%s\n",routers[router][0]);
+            printf("%s,%s\n", routers[router][0], routers[router][1]);
         }
 
         exit(0);
