@@ -50,7 +50,8 @@ These devices were confirmed via various images, found on the Internet and valid
 | Orange-XXXX | Huawei E5577Cs-321 | 86726202 | 8 | The SSID matches with other Orange routers, which use different default key generation algorithms |
 | 501HWa-XXXXXX | Huawei HWABJ1 | 86738102 | 7 | Append 'a' to every candidate, eg. `sed 's/$/a/'` |
 | 4G-Gateway-XXXX | Huawei B593 | 86803100 | 8 | |
-| inwi Home 4GXXXXXX | Huawei B310s / Huawei B311-221 | 86846503 <br/> 86918004| 8 | No space between 4G and the hex digits |
+| inwi Home 4GXXXXXX | Huawei B310s / Huawei B311-221 | 86846503 <br/> 86918004 | 8 | No space between 4G and the hex digits |
+| ZTE MF90+ XXXXXX | ZTE MF90+ | 86852702 | 8 | |
 
 ## Usage
 ```
