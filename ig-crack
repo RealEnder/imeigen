@@ -1,0 +1,68 @@
+#!/bin/bash
+# ig_crack, Alex Stanev <alex@stanev.org>
+# A simple bash script, to crack IMEI based default WIFI router passwords with hashcat
+# Needed tools: imeigen, hashcat and hcxhashtool from hcxtools package
+# https://github.com/RealEnder/imeigen
+# The source code is distributed under MIT license
+
+if [ -z "$1" ]; then
+    echo 'ig_crack v0.1 (c) Alex Stanev <alex@stanev.org>'
+    echo "Usage: $0 [hashes.22000]"
+    exit 0
+fi
+
+
+# Add current directory in front of PATH
+PATH=.:$PATH
+
+# Check for imeigen presence
+if ! [ -x "$(command -v imeigen)" ]; then
+    echo 'Error: imeigen is not found.' >&2
+    exit 1
+fi
+
+# Check for hashcat presence
+if ! [ -x "$(command -v hashcat)" ]; then
+    echo 'Error: hashcat is not found.' >&2
+    exit 1
+fi
+
+# Check for hcxhashtool presence
+if ! [ -x "$(command -v hcxhashtool)" ]; then
+    echo 'Error: hcxhashtool is not found.' >&2
+    exit 1
+fi
+
+# Check for input 22000 hashfile
+if ! [ -r "$1" ]; then
+    echo "$1 does not exists or not readable." >&2
+    exit 1
+fi
+
+BASEIN=$(basename $1)
+BASEIN="${BASEIN%.*}"
+rm -f "$BASEIN"_partial.22000
+
+# Pull supported SSID parts from imeigen, filter and run hashcat
+while IFS=$'\n' read LINE; do
+    IFS=',' read -r -a IGLIST <<< "$LINE"
+
+    hcxhashtool -i "$1" -o "$BASEIN"_partial.22000 --essid-part "${IGLIST[0]}"
+
+    if ! [ -s "$BASEIN"_partial.22000 ]; then
+        continue
+    fi
+
+    # Handle special cases
+    if [ "${IGLIST[0]}" = "VIVA-4G-LTE-" ]; then
+        imeigen "${IGLIST[0]}" "${IGLIST[1]}" | sed 's/^/VIVA/' | hashcat -a0 -m22000 --logfile-disable --self-test-disable -o "$BASEIN"_partial.mac --potfile-path "$BASEIN"_partial.pot "$BASEIN"_partial.22000
+    elif [ "${IGLIST[0]}" = "501HWa-" ]; then
+        imeigen "${IGLIST[0]}" "${IGLIST[1]}" | sed 's/$/a/' | hashcat -a0 -m22000 --logfile-disable --self-test-disable -o "$BASEIN"_partial.mac --potfile-path "$BASEIN"_partial.pot "$BASEIN"_partial.22000
+    else
+        imeigen "${IGLIST[0]}" "${IGLIST[1]}" | hashcat -a0 -m22000 --logfile-disable --self-test-disable -o "$BASEIN"_partial.mac --potfile-path "$BASEIN"_partial.pot "$BASEIN"_partial.22000
+    fi
+
+    # Cleanup
+    rm -f "$BASEIN"_partial.22000
+done < <(imeigen list)
+
