@@ -21,7 +21,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | --------- | ----- | --- | :----: | ----- |
 | MW45AN_XXXX | TCL/Alcatel MW45AN | 35042693 | 8 | |
 | MW45V_XXXX | TCL/Alcatel MW45V | 35143020 | 8 | |
-| VINNWiFi_XXXX[_5G] | TCL/Alcatel MW40V1 | 35178309 | 8 | |
+| VINNWiFi_XXXX[_5G] | TCL/Alcatel MW40V1 | 35178309 <br/> 35784508 | 8 | |
 | BeelineS23_XXXX | Beeline S23 | 35232010 | 8 | |
 | pocketwifi-xxxx | Huawei E585 | 35239804 <br/> 35730904 | 8 | |
 | VIVACOM 4G WiFi_XXXX[_5G] | TCL/Alcatel MW40V1 | 35240810 | 8 | |

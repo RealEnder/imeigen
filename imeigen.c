@@ -37,7 +37,7 @@ int main(int argc, char **argv)
     {
         {"MW45AN_",          "8", "35042693", NULL},
         {"MW45V_",           "8", "35143020", NULL},
-        {"VINNWiFi_",        "8", "35178309", NULL},
+        {"VINNWiFi_",        "8", "35178309", "35784508", NULL},
         {"BeelineS23_",      "8", "35232010", NULL},
         {"pocketwifi-",      "8", "35239804", "35730904", NULL},
         {"VIVACOM 4G WiFi_", "8", "35240810", NULL},
