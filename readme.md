@@ -32,6 +32,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | E5830-xxxx | Huawei E5830S | 35410303 | 8 | |
 | XLGO-XXXX | MOVIMAX MV003 | 35497206 | 8 | |
 | BeelineSM25_XXXX | Beeline SM25 | 35595810 | 8 | |
+| MW70VK_XXXX_[2.4G\|5G] | TCL/Alcatel MW70VK | 35700709 | 8 | |
 | MobileWiFi-xxxx | Huawei E560 | 35750304 | 8 | Used by Beeline |
 | Beeline_XXXX | Beeline L02H | 35978707 | 8 | |
 | OptusWiFi E5331 xxxx | Huawei E5531 | 86066701 | 8 | |
