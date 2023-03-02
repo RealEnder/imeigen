@@ -64,6 +64,7 @@ int main(int argc, char **argv)
         {"Andromax-M3Y-",    "8", "86145803", NULL},
         {"Orange Airbox-",   "8", "86259802", "86395503", "86742202", NULL},
         {"My Broadband-",    "8", "86303001", "86723101", NULL},
+        {"MTS835F_",         "8", "86307403", NULL},
         {"Connect4G",       "11", "86316801", NULL},
         {"MTS81140FT_",      "8", "86386605", NULL},
         {"VIVACOM 4G WI-FI", "8", "86398103", NULL},
