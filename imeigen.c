@@ -49,6 +49,7 @@ int main(int argc, char **argv)
         {"MTS8920FT_",       "8", "35477311", NULL},
         {"XLGO-",            "8", "35497206", NULL},
         {"BeelineSM25_",     "8", "35595810", NULL},
+        {"MTS81020FTPB_",    "8", "35622911", NULL},
         {"MW70VK_",          "8", "35700709", NULL},
         {"MTS81231FT_",      "8", "35705982", NULL},
         {"MTS81220FT_",      "8", "35717577", NULL},

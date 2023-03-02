@@ -33,6 +33,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | MTS8920FT_XXXX[_plus] | WeWins MTS 8920FT | 35477311 | 8 | |
 | XLGO-XXXX | MOVIMAX MV003 | 35497206 | 8 | |
 | BeelineSM25_XXXX | Beeline SM25 | 35595810 | 8 | |
+| MTS81020FTPB_XXXX | BQ Devices Limited BQ 81020FTPB | 35622911 | 8 | |
 | MW70VK_XXXX_[2.4G\|5G] | TCL/Alcatel MW70VK | 35700709 | 8 | |
 | MTS81231FT_XXXX | Vobis/Highscreen Limited MTS 81231FT | 35705982 | 8 | |
 | MTS81220FT_XXXX | Vobis/Highscreen Limited MTS 81220FT | 35717577 | 8 | |
