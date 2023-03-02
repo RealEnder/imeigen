@@ -70,6 +70,7 @@ int main(int argc, char **argv)
         {"4G-Gateway-",      "8", "86803100", NULL},
         {"inwi Home 4G",     "8", "86846503", "86918004", NULL},
         {"ZTE MF90+ ",       "8", "86852702", NULL},
+        {"MTS411D_",         "8", "86996400", NULL},
         {NULL}
     };
 
