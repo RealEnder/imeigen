@@ -30,6 +30,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | SVITIN-XXXX | WeWins M09 | 35343011 | 8 | |
 | MTN MiFi E5830S | Huawei E5830S | 35410303 | 8 | |
 | E5830-xxxx | Huawei E5830S | 35410303 | 8 | |
+| MTS8920FT_XXXX[_plus] | WeWins MTC 8920FT | 35477311 | 8 | |
 | XLGO-XXXX | MOVIMAX MV003 | 35497206 | 8 | |
 | BeelineSM25_XXXX | Beeline SM25 | 35595810 | 8 | |
 | MW70VK_XXXX_[2.4G\|5G] | TCL/Alcatel MW70VK | 35700709 | 8 | |

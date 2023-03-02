@@ -46,6 +46,7 @@ int main(int argc, char **argv)
         {"SVITIN-",          "8", "35343011", NULL},
         {"MTN MiFi E5830S",  "8", "35410303", NULL},
         {"E5830-",           "8", "35410303", NULL},
+        {"MTS8920FT_",       "8", "35477311", NULL},
         {"XLGO-",            "8", "35497206", NULL},
         {"BeelineSM25_",     "8", "35595810", NULL},
         {"MW70VK_",          "8", "35700709", NULL},
