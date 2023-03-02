@@ -35,6 +35,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | BeelineSM25_XXXX | Beeline SM25 | 35595810 | 8 | |
 | MW70VK_XXXX_[2.4G\|5G] | TCL/Alcatel MW70VK | 35700709 | 8 | |
 | MobileWiFi-xxxx | Huawei E560 | 35750304 | 8 | Used by Beeline |
+| MTS8723FT_XXXX | Senseit MTS 8723FT | 35861510 | 8 | |
 | Beeline_XXXX | Beeline L02H | 35978707 | 8 | |
 | OptusWiFi E5331 xxxx | Huawei E5531 | 86066701 | 8 | |
 | Globe_LTE MIFI_XXXX | YOUWIN M022T | 86066701 | 8 | |
