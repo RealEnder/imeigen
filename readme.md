@@ -34,7 +34,8 @@ These devices were confirmed via various images, found on the Internet and valid
 | XLGO-XXXX | MOVIMAX MV003 | 35497206 | 8 | |
 | BeelineSM25_XXXX | Beeline SM25 | 35595810 | 8 | |
 | MW70VK_XXXX_[2.4G\|5G] | TCL/Alcatel MW70VK | 35700709 | 8 | |
-| MTS81220FT_XXXX | Vobis/Highscreen Limited MTS MTS81220FT | 35717577 | 8 | |
+| MTS81231FT_XXXX | Vobis/Highscreen Limited MTS 81231FT | 35705982 | 8 | |
+| MTS81220FT_XXXX | Vobis/Highscreen Limited MTS 81220FT | 35717577 | 8 | |
 | MobileWiFi-xxxx | Huawei E560 | 35750304 | 8 | Used by Beeline |
 | MTS8723FT_XXXX | Senseit MTS 8723FT | 35861510 | 8 | |
 | Beeline_XXXX | Beeline L02H | 35978707 | 8 | |
