@@ -39,6 +39,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | MobileWiFi-xxxx | Huawei E560 | 35750304 | 8 | Used by Beeline |
 | MTS8723FT_XXXX | Senseit MTS 8723FT | 35861510 | 8 | |
 | Beeline_XXXX | Beeline L02H | 35978707 | 8 | |
+| MTS81330FT_XXXX | Shenzhen Harvilon Technology MTS 81330FT | 86013005 | 8 | |
 | OptusWiFi E5331 xxxx | Huawei E5531 | 86066701 | 8 | |
 | Globe_LTE MIFI_XXXX | YOUWIN M022T | 86066701 | 8 | |
 | inwi Home 4G XXXXXX | ZTE MF253V | 86074303 <br/> 86658004 | 8 | Note the space after 4G |
