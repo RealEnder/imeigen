@@ -62,6 +62,7 @@ int main(int argc, char **argv)
         {"Globe_LTE MIFI_",  "8", "86066701", NULL},
         {"inwi Home 4G ",    "8", "86074303", "86658004", NULL},
         {"Andromax-M3Y-",    "8", "86145803", NULL},
+        {"MTS8213FT-",       "8", "86241803", NULL},
         {"Orange Airbox-",   "8", "86259802", "86395503", "86742202", NULL},
         {"My Broadband-",    "8", "86303001", "86723101", NULL},
         {"MTS835F_",         "8", "86307403", NULL},
