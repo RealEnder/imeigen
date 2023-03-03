@@ -55,6 +55,7 @@ int main(int argc, char **argv)
         {"MTS81231FT_",      "8", "35705982", NULL},
         {"MTS81220FT_",      "8", "35717577", NULL},
         {"MobileWiFi-",      "8", "35750304", NULL},
+        {"MTS872FT_",        "8", "35844809", NULL},
         {"MTS8723FT_",       "8", "35861510", NULL},
         {"Beeline_",         "8", "35978707", NULL},
         {"MTS81330FT_",      "8", "86013005", NULL},
