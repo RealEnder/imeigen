@@ -51,6 +51,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | My Broadband-xxxx | Huawei E589 | 86303001 <br/> 86723101 | 8 | |
 | MTS835F_XXXXXX | ZTE MTS 835F | 86307403 | 8 | |
 | Connect4G | Huawei B593 | 86316801 | 11 | |
+| MTS837F_XXXXXX | ZTE MTS 837F | 86357703 | 8 | |
 | MTS81140FT_XXXX | Mobot Technology/Signalinks MTS 81140FT | 86386605 | 8 | |
 | VIVACOM 4G WI-FI | Huawei E5573s-320 | 86398103 | 8 | |
 | MTS831_XXXXXX | ZTE MF910/831FT MTS | 86415402 | 8 | |
