@@ -40,6 +40,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | MTS81231FT_XXXX | Vobis/Highscreen Limited MTS 81231FT | 35705982 | 8 | |
 | MTS81220FT_XXXX | Vobis/Highscreen Limited MTS 81220FT | 35717577 | 8 | |
 | MobileWiFi-xxxx | Huawei E560 | 35750304 | 8 | Used by Beeline |
+| congstar.home_XXXX[_2.4G\|_5G] | TCL/Alcatel HH71VM/HH40V | 35834210 <br/> 35848108 | 8 | |
 | MTS872FT_XXXX | Senseit MTS 872FT | 35844809 | 8 | |
 | MTS8723FT_XXXX | Senseit MTS 8723FT | 35861510 | 8 | |
 | Beeline_XXXX | Beeline L02H | 35978707 | 8 | |
