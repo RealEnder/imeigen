@@ -49,6 +49,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | Globe_LTE MIFI_XXXX | YOUWIN M022T | 86066701 | 8 | |
 | inwi Home 4G XXXXXX | ZTE MF253V | 86074303 <br/> 86658004 | 8 | Note the space after 4G |
 | Andromax-M3Y-XXXX | Smartfren M26Z1H | 86145803 | 8 | |
+| MTS8330FT_XXXXXX | ZTE 8330FT MTS | 86176605 | 8 | |
 | MTS8213FT-XXXX | Huawei E5785Lh-22c MTS | 86241803 | 8 | |
 | Orange Airbox-XXXX | Huawei E5573 | 86259802 <br/> 86395503 <br/> 86742202 | 8 | |
 | My Broadband-xxxx | Huawei E589 | 86303001 <br/> 86723101 | 8 | |
