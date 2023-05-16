@@ -59,8 +59,10 @@ These devices were confirmed via various images, found on the Internet and valid
 | MTS835F_XXXXXX | ZTE MTS 835F | 86307403 | 8 | |
 | Connect4G | Huawei B593 | 86316801 | 11 | |
 | MTS837F_XXXXXX | ZTE MTS 837F | 86357703 | 8 | |
+| TP-LINK_M5360_XXXXXX | TP-Link M5360 | 86382402 | 8 | |
 | MTS81140FT_XXXX | Mobot Technology/Signalinks MTS 81140FT | 86386605 | 8 | |
 | VIVACOM 4G WI-FI | Huawei E5573s-320 | 86398103 | 8 | |
+| TP-LINK_M5350_XXXXXX | TP-Link M5350 | 86401101 | 8 | |
 | MTS831_XXXXXX | ZTE MF910/831FT MTS | 86415402 | 8 | |
 | Domino-XXXX | Huawei E5327 / ZTE MF63 CU | 86434052 </br> 86637701 | 8 | Huawei model uncertain |
 | MTS838FT_XXXXXX[_2.4Gz] | ZTE 838FT | 86477204 | 8 | |
