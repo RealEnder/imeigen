@@ -24,6 +24,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | MW45V_XXXX | TCL/Alcatel MW45V | 35143020 | 8 | |
 | MTS874FT_XXXX | Senseit MTS 874FT | 35162910 | 8 | |
 | VINNWiFi_XXXX[_5G] | TCL/Alcatel MW40V1 | 35178309 <br/> 35784508 | 8 | |
+| Optus E583C xxxx | Huawei E583C | 35219704 | 8 | |
 | MTS850FT-XXXX | Unitac/Oltrade LLC TPS MTS 850FT | 35216407 | 8 | |
 | BeelineS23_XXXX | Beeline S23 | 35232010 | 8 | |
 | pocketwifi-xxxx | Huawei E585 | 35239804 <br/> 35730904 | 8 | |
@@ -41,6 +42,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | MTS81231FT_XXXX | Vobis/Highscreen Limited MTS 81231FT | 35705982 | 8 | |
 | MTS81220FT_XXXX | Vobis/Highscreen Limited MTS 81220FT | 35717577 | 8 | |
 | MobileWiFi-xxxx | Huawei E560 | 35750304 | 8 | Used by Beeline |
+| Optus E586 xxxx | Huawei E586 | 35750604 | 8 | |
 | congstar.home_XXXX[_2.4G\|_5G] | TCL/Alcatel HH71VM/HH40V | 35834210 <br/> 35848108 | 8 | |
 | HH71VM_XXXX_[2.4G\|5G] | TCL/Alcatel HH71VM | 35834210 | 8 | |
 | MTS872FT_XXXX | Senseit MTS 872FT | 35844809 | 8 | |
