@@ -88,10 +88,10 @@ These devices were confirmed via various images, found on the Internet and valid
 $ git clone https://github.com/RealEnder/imeigen
 $ cd imeigen
 $ make
-gcc -O3 -Wall -o imeigen imeigen.c
+cc -O3 -Wall -Wextra -Wpedantic -o imeigen imeigen.c
 $ ./imeigen
 IMEIgen v0.1 (c) Alex Stanev <alex@stanev.org>
-Usage: ./imeigen [[8-digit TAC|SSID] [right digits count, default 8] | list]
+Usage: ./imeigen [[8-digit TAC|SSID] [right digits count, default 8] | list | all]
 ```
 
 Example usage with [hashcat](https://hashcat.net):
@@ -105,7 +105,12 @@ You can extract the right hashes with the excellent [hcxtools](https://github.co
 $ hcxhashtool -i large_hashlist.22000 -o vivacom.22000 --essid-part "VIVACOM 4G WiFi"
 ```
 
-ig-crack script is used to extract the supported networks from a large collection of m22000 hashes, which are then passed to hashcat for cracking using the password candidates from imeigen. It accounts for the special cases, used by some vendors.
+### Optional arguments
+* `list` - prints all supported SSID masks and candidates lengths
+* `all` - generates all possible candidates for supported TACs. There will be a lot of duplicates.
+
+### The ig-crack script
+`ig-crack` script is used to extract the supported networks from a large collection of m22000 hashes, which are then passed to `hashcat` for cracking using the password candidates from `imeigen`. It accounts for the special cases, used by some vendors.
 
 ## Contributing
 Look at the label of your mobile broadband WIFI router and check if the default password is part of the IMEI. If this is the case and you can't find the device TAC on the list, please open an issue in this repository with the photo of the label. Many label photos can also be found on the Internet.
