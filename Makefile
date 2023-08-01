@@ -1,7 +1,7 @@
 PREFIX = /usr/local
 
 all:
-	$(CC) -O3 -Wall -o imeigen imeigen.c
+	$(CC) -O3 -Wall -Wextra -Wpedantic -o imeigen imeigen.c
 
 install:
 	install -D -m 0755 imeigen $(DESTDIR)$(PREFIX)/bin/imeigen

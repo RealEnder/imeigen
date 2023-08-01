@@ -29,7 +29,8 @@ int calc_digit(char *number)
 
 int main(int argc, char **argv)
 {
-    int i, ii, check_digit, router;
+    int i, check_digit;
+    size_t router, ii;
     int len = 8;
     char number[16] = {0};
 
