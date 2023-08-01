@@ -104,13 +104,30 @@ int main(int argc, char **argv)
 
     if (argc <= 1) {
         printf("IMEIgen v0.1 (c) Alex Stanev <alex@stanev.org>\n");
-        printf("Usage: %s [[8-digit TAC|SSID] [right digits count, default 8] | list]\n", *argv);
+        printf("Usage: %s [[8-digit TAC|SSID] [right digits count, default 8] | list | all]\n", *argv);
         exit(1);
     }
 
     if (argc == 2 && strcmp(argv[1], "list") == 0) {
         for (router=0; router<sizeof(routers)/sizeof(routers[0])-1; router++) {
             printf("%s,%s\n", routers[router][0], routers[router][1]);
+        }
+
+        exit(0);
+    }
+
+    if (argc == 2 && strcmp(argv[1], "all") == 0) {
+        for (router=0; router<sizeof(routers)/sizeof(routers[0])-1; router++) {
+            len = atoi(routers[router][1]);
+            if (len < 8) continue;
+            for (ii=2; ii<sizeof(routers[0]); ii++) {
+                if (routers[router][ii] == NULL) break;
+                for (i=0; i<1000000; i++) {
+                    sprintf(number, "%s%06d", routers[router][ii], i);
+                    check_digit = calc_digit(number);
+                    printf("%s%d\n", number + 15 - len, check_digit);
+                }
+            }
         }
 
         exit(0);
