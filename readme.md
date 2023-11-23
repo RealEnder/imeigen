@@ -57,6 +57,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | MTS8330FT_XXXXXX | ZTE 8330FT MTS | 86176605 | 8 | |
 | MTS8213FT-XXXX | Huawei E5785Lh-22c MTS | 86241803 | 8 | |
 | Orange Airbox-XXXX | Huawei E5573 | 86259802 <br/> 86395503 <br/> 86742202 | 8 | |
+| OLAX_LTE_dddd | Shenzhen Wanwei Yulian Technology Co Ltd. AX9 Pro B | 86275506 | 8 | The second half of the password in in the SSID |
 | My Broadband-xxxx | Huawei E589 | 86303001 | 8 | |
 | MTS835F_XXXXXX | ZTE MTS 835F | 86307403 | 8 | |
 | Connect4G | Huawei B593 | 86316801 | 11 | |
