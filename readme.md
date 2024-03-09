@@ -68,12 +68,15 @@ These devices were confirmed via various images, found on the Internet and valid
 | VIVACOM 4G WI-FI | Huawei E5573s-320 | 86398103 | 8 | |
 | TP-LINK_M5350_XXXXXX | TP-Link M5350 | 86401101 | 8 | |
 | MTS831_XXXXXX | ZTE MF910/831FT MTS | 86415402 | 8 | |
-| Domino-XXXX | Huawei E5327 / ZTE MF63 CU | 86434052 </br> 86637701 | 8 | Huawei model uncertain |
+| ALTEL4G-XXXX[_5G] | Shanghai Notion Information Technology Co Ltd OpenTogether R28 | 86420805 | 8 | |
+| Domino-XXXX | Huawei E5327 / ZTE MF63 CU | 86434052 <br/> 86637701 | 8 | Huawei model uncertain |
 | MTS838FT_XXXXXX[_2.4Gz] | ZTE 838FT | 86477204 | 8 | |
 | VIVACOM 3G WI-FI | Huawei E5330Bs-2 | 86570602 | 8 | |
 | MTS8430FT_XXXX | Shenzhen ZhuiFengMa Technology Jiffma 8430FT MTS | 86571004 | 8 | |
 | imotowifiXXXXXX | Shanghai Notion Information Technology Co Ltd OpenTogether M028 | 86616703 | 8 | |
 | SMILE 4G LTE-XXXX | Shanghai Notion Information Technology Co Ltd OpenTogether M028 | 86616703 | 8 | |
+| ALTEL4G_XXXX <br/> ALTEL4G_dddd | Shanghai Notion Information Technology Co Ltd OpenTogether M022 / Shanghai Boosteven Technology Limited Youwin W02 | 86637403 <br/> 86848203 | 8 | |
+| ALTEL 4G_ddddddd <br/> ALTEL 4G_XXXXXXX | Shenzhen Aolifeng Communication Technology Co Ltd L800,L900,MINI5219,B209,GT-E3309 Aolifeng L800 / ZTE Corporation ZTE MF93D | 86650302 <br/> 86685501 | 8 | |
 | HUAWEI-E5577-XXXX | Huawei E5577s-932 | 86685202 | 8 | The SSID matches with other Huawei router sub-model, which use different default key generation algorithm |
 | MTS833_XXXXXX | ZTE MF910/MF910W/MF900/Blade S6 Lite/MTS 833F | 86688302 | 8 | |
 | VIVA-4G-LTE-XXXX | Huawei E5577Cs-321 | 86726202 | 6 | Prepend 'VIVA' to every candidate, eg. `sed 's/^/VIVA/'`. Practically doesn't reduce the keyspace |
