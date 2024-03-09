@@ -72,7 +72,8 @@ These devices were confirmed via various images, found on the Internet and valid
 | MTS838FT_XXXXXX[_2.4Gz] | ZTE 838FT | 86477204 | 8 | |
 | VIVACOM 3G WI-FI | Huawei E5330Bs-2 | 86570602 | 8 | |
 | MTS8430FT_XXXX | Shenzhen ZhuiFengMa Technology Jiffma 8430FT MTS | 86571004 | 8 | |
-| imotowifiXXXXXX | Shanghai Notion Information Technology | 86616703 | 8 | |
+| imotowifiXXXXXX | Shanghai Notion Information Technology Co Ltd OpenTogether M028 | 86616703 | 8 | |
+| SMILE 4G LTE-XXXX | Shanghai Notion Information Technology Co Ltd OpenTogether M028 | 86616703 | 8 | |
 | HUAWEI-E5577-XXXX | Huawei E5577s-932 | 86685202 | 8 | The SSID matches with other Huawei router sub-model, which use different default key generation algorithm |
 | MTS833_XXXXXX | ZTE MF910/MF910W/MF900/Blade S6 Lite/MTS 833F | 86688302 | 8 | |
 | VIVA-4G-LTE-XXXX | Huawei E5577Cs-321 | 86726202 | 6 | Prepend 'VIVA' to every candidate, eg. `sed 's/^/VIVA/'`. Practically doesn't reduce the keyspace |

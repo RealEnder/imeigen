@@ -90,6 +90,7 @@ int main(int argc, char **argv)
         {"VIVACOM 3G WI-FI", "8", "86570602", NULL},
         {"MTS8430FT_",       "8", "86571004", NULL},
         {"imotowifi",        "8", "86616703", NULL},
+        {"SMILE 4G LTE-",    "8", "86616703", NULL},
         {"HUAWEI-E5577-",    "8", "86685202", NULL},
         {"MTS833_",          "8", "86688302", NULL},
         {"VIVA-4G-LTE-",     "6", "86726202", NULL},
