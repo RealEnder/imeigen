@@ -77,6 +77,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | SMILE 4G LTE-XXXX | Shanghai Notion Information Technology Co Ltd OpenTogether M028 | 86616703 | 8 | |
 | ALTEL4G_XXXX <br/> ALTEL4G_dddd | Shanghai Notion Information Technology Co Ltd OpenTogether M022 / Shanghai Boosteven Technology Limited Youwin W02 | 86637403 <br/> 86848203 | 8 | |
 | ALTEL 4G_ddddddd <br/> ALTEL 4G_XXXXXXX | Shenzhen Aolifeng Communication Technology Co Ltd L800,L900,MINI5219,B209,GT-E3309 Aolifeng L800 / ZTE Corporation ZTE MF93D | 86650302 <br/> 86685501 | 8 | |
+| 4GEEOnetouchY800z_XXXX | TCT Mobile Limited ALCATEL One Touch Y800Z/OT-Y800z | 86681401 | 8 | |
 | HUAWEI-E5577-XXXX | Huawei E5577s-932 | 86685202 | 8 | The SSID matches with other Huawei router sub-model, which use different default key generation algorithm |
 | MTS833_XXXXXX | ZTE MF910/MF910W/MF900/Blade S6 Lite/MTS 833F | 86688302 | 8 | |
 | VIVA-4G-LTE-XXXX | Huawei E5577Cs-321 | 86726202 | 6 | Prepend 'VIVA' to every candidate, eg. `sed 's/^/VIVA/'`. Practically doesn't reduce the keyspace |
