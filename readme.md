@@ -44,6 +44,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | MTS81220FT_XXXX | Vobis/Highscreen Limited MTS 81220FT | 35717577 | 8 | |
 | MobileWiFi-xxxx | Huawei E560 | 35750304 | 8 | Used by Beeline |
 | Optus E586 xxxx | Huawei E586 | 35750604 | 8 | |
+| SMC062_XXXXXX | Wewins Technology Limited 4G CPE Router SMC062 | 35774140 | 10 | |
 | congstar.home_XXXX[_2.4G\|_5G][_Ext\|_EXT] | TCL/Alcatel HH71VM/HH40V | 35834210 <br/> 35848108 | 8 | |
 | HH71VM_XXXX_[2.4G\|5G] | TCL/Alcatel HH71VM | 35834210 | 8 | |
 | MTS872FT_XXXX | Senseit MTS 872FT | 35844809 | 8 | |

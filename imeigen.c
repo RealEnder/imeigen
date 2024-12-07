@@ -61,6 +61,7 @@ int main(int argc, char **argv)
         {"MTS81220FT_",        "8", "35717577", NULL},
         {"MobileWiFi-",        "8", "35750304", NULL},
         {"Optus E586 ",        "8", "35750604", NULL},
+        {"SMC062_",           "10", "35774140", NULL},
         {"congstar.home_",     "8", "35834210", "35848108", NULL},
         {"HH71VM_",            "8", "35834210", NULL},
         {"MTS872FT_",          "8", "35844809", NULL},
