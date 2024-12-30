@@ -4,6 +4,8 @@
 #include <string.h>
 #include <regex.h>
 
+#define RLEN sizeof(routers)/sizeof(routers[0])
+
 int calc_digit(char *number)
 {
     int i, sum, ch, num, twoup, len;
@@ -120,7 +122,7 @@ int main(int argc, char **argv)
         {NULL}
     };
 
-    regex_t cregex[sizeof(routers)/sizeof(routers[0])];
+    regex_t cregex[RLEN];
 
     if (argc <= 1) {
         printf("IMEIgen v0.1 (c) Alex Stanev <alex@stanev.org>\n");
@@ -129,7 +131,7 @@ int main(int argc, char **argv)
     }
 
     if (argc == 2 && strcmp(argv[1], "list") == 0) {
-        for (router=0; router<sizeof(routers)/sizeof(routers[0])-1; router++) {
+        for (router=0; router<RLEN-1; router++) {
             dropSlashes(routers[router][0]);
             printf("%s,%s\n", routers[router][0], routers[router][1]);
         }
@@ -138,7 +140,7 @@ int main(int argc, char **argv)
     }
 
     if (argc == 2 && strcmp(argv[1], "all") == 0) {
-        for (router=0; router<sizeof(routers)/sizeof(routers[0])-1; router++) {
+        for (router=0; router<RLEN-1; router++) {
             len = atoi(routers[router][1]);
             if (len < 8) continue;
             for (ii=2; ii<sizeof(routers[0]); ii++) {
@@ -175,20 +177,20 @@ int main(int argc, char **argv)
         }
     } else {
         // compile regex
-        for (i=0; i<sizeof(routers)/sizeof(routers[0])-1; i++) {
+        for (i=0; i<RLEN-1; i++) {
             regcomp(&cregex[i], routers[i][0], REG_EXTENDED);
         }
 
-        for (router=0; router<sizeof(routers)/sizeof(routers[0])-1; router++) {
+        for (router=0; router<RLEN-1; router++) {
             if (regexec(&cregex[router], argv[1], 0, NULL, 0) == 0) break;
         }
 
         // free compiled regex
-        for (i=0; i<sizeof(routers)/sizeof(routers[0])-1; i++) {
+        for (i=0; i<RLEN-1; i++) {
             regfree(&cregex[i]);
         }
 
-        if (router == sizeof(routers)/sizeof(routers[0])-1) {
+        if (router == RLEN-1) {
             printf("Unknown SSID!\n");
             exit(1);
         }
