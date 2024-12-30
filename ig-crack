@@ -1,7 +1,7 @@
 #!/bin/bash
 # ig_crack, Alex Stanev <alex@stanev.org>
 # A simple bash script, to crack IMEI based default WIFI router passwords with hashcat
-# Needed tools: imeigen, hashcat and hcxhashtool from hcxtools package
+# Needed tools: imeigen, hashcat and hcxhashtool from hcxtools (v6.3.5+) package
 # https://github.com/RealEnder/imeigen
 # The source code is distributed under MIT license
 
@@ -47,7 +47,7 @@ rm -f "$BASEIN"_partial.22000
 while IFS=$'\n' read LINE; do
     IFS=',' read -r -a IGLIST <<< "$LINE"
 
-    hcxhashtool -i "$1" -o "$BASEIN"_partial.22000 --essid-part "${IGLIST[0]}"
+    hcxhashtool -i "$1" -o "$BASEIN"_partial.22000 --essid-regex '${IGLIST[0]}'
 
     if ! [ -s "$BASEIN"_partial.22000 ]; then
         continue
@@ -65,4 +65,3 @@ while IFS=$'\n' read LINE; do
     # Cleanup
     rm -f "$BASEIN"_partial.22000
 done < <(imeigen list)
-
