@@ -28,6 +28,14 @@ int calc_digit(char *number)
     return sum;
 }
 
+void dropSlashes(char* in) {
+    char *pos;
+
+    while ((pos = strstr(in, "\\\\")) != NULL) {
+        memmove(pos, pos+1, strlen(pos)+1);
+    }
+}
+
 int main(int argc, char **argv)
 {
     unsigned int i, check_digit;
@@ -35,7 +43,7 @@ int main(int argc, char **argv)
     int len = 8;
     char number[16] = {0};
 
-    static const char *routers[][7] =
+    static char *routers[][7] =
     {
         {"^MW45AN_[0-9A-F]{4}$",                                   "8", "35042693", NULL},
         {"^MobileRouter-[0-9A-F]{4}$",                             "8", "35066291", NULL},
@@ -122,6 +130,7 @@ int main(int argc, char **argv)
 
     if (argc == 2 && strcmp(argv[1], "list") == 0) {
         for (router=0; router<sizeof(routers)/sizeof(routers[0])-1; router++) {
+            dropSlashes(routers[router][0]);
             printf("%s,%s\n", routers[router][0], routers[router][1]);
         }
 
