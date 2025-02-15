@@ -52,6 +52,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | HH40V_XXXX | TCL/Alcatel HH40V | 35848108 | 8 | |
 | MTS8723FT_XXXX | Senseit MTS 8723FT | 35861510 | 8 | |
 | Beeline_XXXX | Beeline L02H | 35978707 | 8 | |
+| AIS 4G Pocket Wifi_dddddd | Ruio Telecommunication Technologies Co Limited Ruio S6506 | 35986513 <br/> 86207503 | 8 | Last 6 digits of the IMEI are in the SSID, so we can brute only the second digit |
 | MTS81330FT_XXXX | Shenzhen Harvilon Technology MTS 81330FT | 86013005 | 8 | |
 | OptusWiFi E5331 xxxx | Huawei E5531 | 86066701 | 8 | |
 | inwi Home 4G XXXXXX | ZTE MF253V | 86074303 <br/> 86658004 | 8 | Note the space after 4G |
