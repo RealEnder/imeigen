@@ -21,6 +21,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | --------- | ----- | --- | :----: | ----- |
 | MW45AN_XXXX | TCL/Alcatel MW45AN | 35042693 | 8 | |
 | MobileRouter-XXXX | ThingsMatrix TMF08 | 35066291 | 8 | |
+| AIS 4G Hi-Speed Home WiFi_dddddd | Ruio Telecommunication Technologies Co Limited / Ruio S10 | 35100755 | 8 | Last 6 digits of the IMEI are in the SSID, so we can brute only the second digit |
 | MW45V_XXXX | TCL/Alcatel MW45V | 35143020 | 8 | |
 | MTS874FT_XXXX | Senseit MTS 874FT | 35162910 | 8 | |
 | VINNWiFi_XXXX[_5G] | TCL/Alcatel MW40V1 | 35178309 <br/> 35784508 | 8 | |

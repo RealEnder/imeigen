@@ -49,6 +49,7 @@ int main(int argc, char **argv)
     {
         {"^MW45AN_[0-9A-F]{4}$",                                   "8", "35042693", NULL},
         {"^MobileRouter-[0-9A-F]{4}$",                             "8", "35066291", NULL},
+        {"^AIS 4G Hi-Speed Home WiFi_[0-9]{6}$",                   "8", "35100755", NULL},
         {"^MW45V_[0-9A-F]{4}$",                                    "8", "35143020", NULL},
         {"^MTS874FT_[0-9A-F]{4}$",                                 "8", "35162910", NULL},
         {"^VINNWiFi_[0-9A-F]{4}$",                                 "8", "35178309", "35784508", NULL},
