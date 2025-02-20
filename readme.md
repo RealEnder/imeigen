@@ -34,6 +34,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | Airtel 4G MiFi_XXXX | Vida Resources PTE Ltd VIDA M2 LTE ROUTER | 35271710 | 8 | |
 | MegaFonMR150-6_XXXX | WeWins MR150-6 | 35274110 <br/> 35742110 | 8 | |
 | SVITIN-XXXX | WeWins M09 | 35343011 | 8 | |
+| MegaFonMR150-7_XXXX | WeWins/Sunnycat MR150-7 | 35352957 | 8 | |
 | MTN MiFi E5830S | Huawei E5830S | 35410303 | 8 | |
 | E5830-xxxx | Huawei E5830S | 35410303 | 8 | |
 | MTS8920FT_XXXX[_plus] | WeWins MTS 8920FT | 35477311 | 8 | |
