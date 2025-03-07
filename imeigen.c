@@ -136,7 +136,7 @@ int main(int argc, char **argv)
     if (argc == 2 && strcmp(argv[1], "list") == 0) {
         for (router=0; router<RLEN-1; router++) {
             dropSlashes(routers[router][0]);
-            printf("%s,%s\n", routers[router][0], routers[router][1]);
+            printf("%s\t%s\n", routers[router][0], routers[router][1]);
         }
 
         exit(0);

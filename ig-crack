@@ -45,7 +45,7 @@ rm -f "$BASEIN"_partial.22000
 
 # Pull supported SSID parts from imeigen, filter and run hashcat
 while IFS=$'\n' read LINE; do
-    IFS=',' read -r -a IGLIST <<< "$LINE"
+    IFS=$'\t' read -r -a IGLIST <<< "$LINE"
 
     hcxhashtool -i "$1" -o "$BASEIN"_partial.22000 --essid-regex "${IGLIST[0]}"
 
