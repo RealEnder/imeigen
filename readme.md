@@ -31,6 +31,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | pocketwifi-xxxx | Huawei E585 | 35239804 <br/> 35730904 | 8 | |
 | VIVACOM 4G WiFi_XXXX[_5G] | TCL/Alcatel MW40V1 | 35240810 | 8 | |
 | MW40V_XXXX | TCL/Alcatel MW40V1 | 35249110 <br/> 35342609 <br/> 35647811 <br/> 35724307 | 8 | |
+| AIS4G Hispeed Pocketwifi_ddddd | Ruio Telecommunication Technologies Co Limited AIS 4G Hi-Speed Pocket WiFi / Ruio D523 | 35252147 | 8 | Last 5 digits of the IMEI are in the SSID |
 | Airtel 4G MiFi_XXXX | Vida Resources PTE Ltd VIDA M2 LTE ROUTER | 35271710 | 8 | |
 | MegaFonMR150-6_XXXX | WeWins MR150-6 | 35274110 <br/> 35742110 | 8 | |
 | SVITIN-XXXX | WeWins M09 | 35343011 | 8 | |
