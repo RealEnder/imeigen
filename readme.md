@@ -93,6 +93,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | 4G-Gateway-XXXX | Huawei B593 | 86803100 | 8 | |
 | inwi Home 4GXXXXXX | Huawei B310s / Huawei B311-221 | 86846503 <br/> 86918004 | 8 | No space between 4G and the hex digits |
 | ZTE MF90+ XXXXXX | ZTE MF90+ | 86852702 | 8 | |
+| Coolpad Surf dddd 2.4GHz | Coolpad CHA-A0 | 86904004 | 8 | Last 4 digits of the password are part of the SSID |
 | MTS411D_XXXX | TCT Mobile MTS 411D | 86852702 | 8 | |
 | MTS835FT_XXXXXX | ZTE MTS 835FT | 86998103 | 8 | |
 
