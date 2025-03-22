@@ -54,6 +54,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | MTS8723FT_XXXX | Senseit MTS 8723FT | 35861510 | 8 | |
 | Beeline_XXXX | Beeline L02H | 35978707 | 8 | |
 | AIS 4G Pocket Wifi_dddddd | Ruio Telecommunication Technologies Co Limited Ruio S6506 | 35986513 <br/> 86207503 | 8 | Last 6 digits of the IMEI are in the SSID, so we can brute only the second digit |
+| 4G-Gateway-XXXX | Huawei B593 | 86009102 <br/> 86803100 | 8 | |
 | MTS81330FT_XXXX | Shenzhen Harvilon Technology MTS 81330FT | 86013005 | 8 | |
 | OptusWiFi E5331 xxxx | Huawei E5531 | 86066701 | 8 | |
 | inwi Home 4G XXXXXX | ZTE MF253V | 86074303 <br/> 86658004 | 8 | Note the space after 4G |
@@ -90,7 +91,6 @@ These devices were confirmed via various images, found on the Internet and valid
 | 501HWa-XXXXXX | Huawei HWABJ1 | 86738102 | 7 | Append 'a' to every candidate, eg. `sed 's/$/a/'` |
 | CoolpadSurf_dddd | Coolpad CP332A | 86769504 | 8 | Last 4 digits of the password are part of the SSID |
 | MTS8212FT_XXXX | Huawei B315s-22 | 86796203 | 8 | |
-| 4G-Gateway-XXXX | Huawei B593 | 86803100 | 8 | |
 | inwi Home 4GXXXXXX | Huawei B310s / Huawei B311-221 | 86846503 <br/> 86918004 | 8 | No space between 4G and the hex digits |
 | ZTE MF90+ XXXXXX | ZTE MF90+ | 86852702 | 8 | |
 | Coolpad Surf dddd 2.4GHz | Coolpad CHA-A0 | 86904004 | 8 | Last 4 digits of the password are part of the SSID |
