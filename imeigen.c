@@ -6,28 +6,26 @@
 
 #define RLEN sizeof(routers)/sizeof(routers[0])
 
-int calc_digit(char *number)
-{
-    int i, sum, ch, num, twoup, len;
+int calc_digit(const char *number) {
+    // Lookup table
+    static const unsigned char LUT[20] = {
+        // Double and reduce (0..9)
+        0, 2, 4, 6, 8, 1, 3, 5, 7, 9,
+        // Identity (10..19)
+        0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+    };
 
-    len = strlen(number);
-    sum = 0;
-    twoup = 1;
+    int sum = 0;
+    int len = strlen(number);
 
-    for (i = len - 1; i >= 0; --i) {
-        ch = number[i];
-        num = (ch >= '0' && ch <= '9') ? ch - '0' : 0;
-        if (twoup) {
-            num += num;
-            if (num > 9) num = (num % 10) + 1;
-        }
-
-        sum += num;
-        twoup = (twoup+1) & 1;
+    for (int i = 0; i < len; i++) {
+        int digit = number[len - 1 - i] - '0';
+        // Index to LUT depends on whether i is even or odd
+        sum += LUT[((i & 1) == 0 ? 0 : 10) + digit];
     }
-    sum = 10 - (sum % 10);
-    if (sum == 10) sum = 0;
-    return sum;
+
+    int check = 10 - (sum % 10);
+    return (check == 10) ? 0 : check;
 }
 
 void drop_slashes(char* in) {
@@ -38,8 +36,7 @@ void drop_slashes(char* in) {
     }
 }
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv) {
     unsigned int i, check_digit;
     size_t router, ii;
     int len = 8;
