@@ -53,13 +53,17 @@ while IFS=$'\n' read LINE; do
         continue
     fi
 
+    # Read first hash SSID and decode it
+    read -r LINE < "$BASEIN"_partial.22000
+    SSID=$(echo "$LINE" | cut -d "*" -f6 | xxd -r -p)
+
     # Handle special cases
-    if [ "${IGLIST[0]}" = "VIVA-4G-LTE-" ]; then
-        imeigen "${IGLIST[0]}" "${IGLIST[1]}" | sed 's/^/VIVA/' | hashcat -a0 -m22000 --logfile-disable --self-test-disable -o "$BASEIN"_partial.mac --potfile-path "$BASEIN"_partial.pot "$BASEIN"_partial.22000
-    elif [ "${IGLIST[0]}" = "501HWa-" ]; then
-        imeigen "${IGLIST[0]}" "${IGLIST[1]}" | sed 's/$/a/' | hashcat -a0 -m22000 --logfile-disable --self-test-disable -o "$BASEIN"_partial.mac --potfile-path "$BASEIN"_partial.pot "$BASEIN"_partial.22000
+    if [ "${IGLIST[0]}" = '^VIVA-4G-LTE-[0-9A-F]{4}$' ]; then
+        imeigen "$SSID" "${IGLIST[1]}" | sed 's/^/VIVA/' | hashcat -a0 -m22000 --logfile-disable --self-test-disable -o "$BASEIN"_partial.mac --potfile-path "$BASEIN"_partial.pot "$BASEIN"_partial.22000
+    elif [ "${IGLIST[0]}" = '^501HWa-[0-9A-F]{6}$' ]; then
+        imeigen "$SSID" "${IGLIST[1]}" | sed 's/$/a/' | hashcat -a0 -m22000 --logfile-disable --self-test-disable -o "$BASEIN"_partial.mac --potfile-path "$BASEIN"_partial.pot "$BASEIN"_partial.22000
     else
-        imeigen "${IGLIST[0]}" "${IGLIST[1]}" | hashcat -a0 -m22000 --logfile-disable --self-test-disable -o "$BASEIN"_partial.mac --potfile-path "$BASEIN"_partial.pot "$BASEIN"_partial.22000
+        imeigen "$SSID" "${IGLIST[1]}" | hashcat -a0 -m22000 --logfile-disable --self-test-disable -o "$BASEIN"_partial.mac --potfile-path "$BASEIN"_partial.pot "$BASEIN"_partial.22000
     fi
 
     # Cleanup
