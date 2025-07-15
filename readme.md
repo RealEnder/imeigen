@@ -25,7 +25,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | MW45V_XXXX | TCL/Alcatel MW45V | 35143020 | 8 | |
 | MTS874FT_XXXX | Senseit MTS 874FT | 35162910 | 8 | |
 | VINNWiFi_XXXX[_5G] | TCL/Alcatel MW40V1 | 35178309 <br/> 35784508 | 8 | |
-| T-Mobile Hotspot_dddd_2.4GHz | Wingtech TMOHS1/ASMHS01 | 35200857 <br/> 86055005 | 8 | Last 4 digits of the IMEI are in the SSID |
+| T-Mobile Hotspot_dddd_[2.4GHz|5GHz] | Wingtech TMOHS1/ASMHS01 | 35200857 <br/> 86055005 | 8 | Last 4 digits of the IMEI are in the SSID |
 | Optus E583C xxxx | Huawei E583C | 35219704 | 8 | |
 | MTS850FT-XXXX | Unitac/Oltrade LLC TPS MTS 850FT | 35216407 | 8 | |
 | BeelineS23_XXXX | Beeline S23 | 35232010 | 8 | |
