@@ -25,6 +25,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | MW45V_XXXX | TCL/Alcatel MW45V | 35143020 | 8 | |
 | MTS874FT_XXXX | Senseit MTS 874FT | 35162910 | 8 | |
 | VINNWiFi_XXXX[_5G] | TCL/Alcatel MW40V1 | 35178309 <br/> 35784508 | 8 | |
+| Moxee Tetherdd_2.4G\|_5G | KonnectONE LLC Moxee Mobile Hotspot K779HSDL | 35199511 | 8 | Last 2 digits in the SSID |
 | T-Mobile Hotspot_dddd_[2.4GHz|5GHz] | Wingtech TMOHS1/ASMHS01 | 35200857 <br/> 86055005 | 8 | Last 4 digits of the IMEI are in the SSID |
 | Optus E583C xxxx | Huawei E583C | 35219704 | 8 | |
 | MTS850FT-XXXX | Unitac/Oltrade LLC TPS MTS 850FT | 35216407 | 8 | |
