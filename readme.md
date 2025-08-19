@@ -61,7 +61,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | 4G-Gateway-XXXX | Huawei B593 | 86009102 <br/> 86803100 | 8 | |
 | MTS81330FT_XXXX | Shenzhen Harvilon Technology MTS 81330FT | 86013005 | 8 | |
 | OptusWiFi E5331 xxxx | Huawei E5531 | 86066701 | 8 | |
-| inwi Home 4G XXXXXX | ZTE MF253V | 86074303 <br/> 86658004 | 8 | Note the space after 4G |
+| inwi Home 4G XXXXXX | ZTE MF253V / Tozed kangwei ZLTS10PLUS | 86074303 <br/> 86500906 <br/> 86658004 | 8 | Note the space after 4G |
 | BOX4G_Inwi_XXXX | Huawei B311B-853 / Other | 86127405 <br/> 86857205 | 8 | TACs not verified, but generates the right candidates |
 | Andromax-M3Y-XXXX | Smartfren M26Z1H | 86145803 | 8 | |
 | MTS8330FT_XXXXXX | ZTE 8330FT MTS | 86176605 | 8 | |
