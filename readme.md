@@ -62,9 +62,9 @@ These devices were confirmed via various images, found on the Internet and valid
 | MTS81330FT_XXXX | Shenzhen Harvilon Technology MTS 81330FT | 86013005 | 8 | |
 | OptusWiFi E5331 xxxx | Huawei E5531 | 86066701 | 8 | |
 | inwi Home 4G XXXXXX[_2.4G_EXT] | ZTE MF253V / Tozed kangwei ZLTS10PLUS | 86074303 <br/> 86500906 <br/> 86658004 | 8 | Note the space after 4G |
+| BOX4G_Inwi_XXXX | Huawei B311B-853 / Huawei B311-221 / MeiGLink SLT818H / BC-MG818H | 86092106 <br/> 86168405 | 8 | |
 | Andromax-M3Y-XXXX | Smartfren M26Z1H | 86145803 | 8 | |
 | inwi Home 4GXXXXXX | Huawei B310s / Huawei B311-221 | 86167204 <br/> 86846503 <br/> 86918004 | 8 | No space between 4G and the hex digits |
-| BOX4G_Inwi_XXXX | Huawei B311B-853 / MeiGLink SLT818H / BC-MG818H | 86168405 | 8 | |
 | MTS8330FT_XXXXXX | ZTE 8330FT MTS | 86176605 | 8 | |
 | Globe_LTE MIFI_XXXX | YOUWIN M022T | 86207503 | 8 | |
 | MTS8213FT-XXXX | Huawei E5785Lh-22c MTS | 86241803 | 8 | |
