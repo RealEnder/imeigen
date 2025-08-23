@@ -63,6 +63,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | OptusWiFi E5331 xxxx | Huawei E5531 | 86066701 | 8 | |
 | inwi Home 4G XXXXXX[_2.4G_EXT] | ZTE MF253V / Tozed kangwei ZLTS10PLUS | 86074303 <br/> 86500906 <br/> 86658004 | 8 | Note the space after 4G |
 | Andromax-M3Y-XXXX | Smartfren M26Z1H | 86145803 | 8 | |
+| inwi Home 4GXXXXXX | Huawei B310s / Huawei B311-221 | 86167204 <br/> 86846503 <br/> 86918004 | 8 | No space between 4G and the hex digits |
 | BOX4G_Inwi_XXXX | Huawei B311B-853 / MeiGLink SLT818H / BC-MG818H | 86168405 | 8 | |
 | MTS8330FT_XXXXXX | ZTE 8330FT MTS | 86176605 | 8 | |
 | Globe_LTE MIFI_XXXX | YOUWIN M022T | 86207503 | 8 | |
@@ -95,7 +96,6 @@ These devices were confirmed via various images, found on the Internet and valid
 | 501HWa-XXXXXX | Huawei HWABJ1 | 86738102 | 7 | Append 'a' to every candidate, eg. `sed 's/$/a/'` |
 | CoolpadSurf_dddd | Coolpad CP332A | 86769504 | 8 | Last 4 digits of the password are part of the SSID |
 | MTS8212FT_XXXX | Huawei B315s-22 | 86796203 | 8 | |
-| inwi Home 4GXXXXXX | Huawei B310s / Huawei B311-221 | 86846503 <br/> 86918004 | 8 | No space between 4G and the hex digits |
 | ZTE MF90+ XXXXXX | ZTE MF90+ | 86852702 | 8 | |
 | Coolpad Surf dddd 2.4GHz | Coolpad CHA-A0 | 86904004 | 8 | Last 4 digits of the password are part of the SSID |
 | MTS411D_XXXX | TCT Mobile MTS 411D | 86852702 | 8 | |
