@@ -92,6 +92,7 @@ These devices were confirmed via various images, found on the Internet and valid
 | 4GEEOnetouchY800z_XXXX | TCT Mobile Limited ALCATEL One Touch Y800Z/OT-Y800z | 86681401 | 8 | |
 | HUAWEI-E5577-XXXX | Huawei E5577s-932 | 86685202 | 8 | The SSID matches with other Huawei router sub-model, which use different default key generation algorithm |
 | MTS833_XXXXXX | ZTE MF910/MF910W/MF900/Blade S6 Lite/MTS 833F | 86688302 | 8 | |
+| ZTE 5G Home WiFi_XXXXXX[_5G] | ZTE MC888 | 86694906 | 8 | |
 | VIVA-4G-LTE-XXXX | Huawei E5577Cs-321 | 86726202 | 6 | Prepend 'VIVA' to every candidate, eg. `sed 's/^/VIVA/'`. Practically doesn't reduce the keyspace |
 | Orange-XXXX | Huawei E5577Cs-321 | 86726202 | 8 | The SSID matches with other Orange routers, which use different default key generation algorithms |
 | 501HWa-XXXXXX | Huawei HWABJ1 | 86738102 | 7 | Append 'a' to every candidate, eg. `sed 's/$/a/'` |
